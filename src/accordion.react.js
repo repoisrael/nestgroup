@@ -4,12 +4,12 @@ import * as Utils from './utils';
 
 export default class Accordion extends React.Component {
 
-  // static propTypes = {
-  //   openByDefault: PropTypes.bool,
-  //   singleOpen: PropTypes.bool,
-  //   uniqId: PropTypes.string,
-  //   className: PropTypes.string,
-  // }
+   static propTypes = {
+     openByDefault: PropTypes.bool,
+     singleOpen: PropTypes.bool,
+     uniqId: PropTypes.string,
+     className: PropTypes.string,
+   }
 
   constructor(props) {
     super(props);
